@@ -1,7 +1,4 @@
 import React from "react";
-import "../styles/app.css";
-
-// import {Button} from "react-bootstrap/Button";
 
 export default function Start() {
   return (

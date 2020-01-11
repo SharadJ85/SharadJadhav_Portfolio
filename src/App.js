@@ -1,5 +1,4 @@
 import React from "react";
-//import "./App.css";
 import "./styles/app.css";
 import "./components/Components.css";
 import Start from "./components/Welcome.js";
@@ -17,7 +16,7 @@ function App() {
       <div>
         <Projects />
       </div>
-      {/*<Contact /> */}
+      <Contact />
     </div>
   );
 }
