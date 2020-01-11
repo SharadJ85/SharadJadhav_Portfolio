@@ -1,23 +1,24 @@
 import React from "react";
-import 'bootstrap/dist/css/bootstrap.min.css';
-import "./App.css";
-import Start from "./components/Welcome.jsx";
-import Profile from "./components/Profile.jsx";
-import Projects from "./components/Projects.jsx";
-import Contact from "./components/Contact.jsx";
+//import "./App.css";
+import "./styles/app.css";
+import "./components/Components.css";
+import Start from "./components/Welcome.js";
+import Profile from "./components/Profile.js";
+import Projects from "./components/Projects.js";
+import Contact from "./components/Contact.js";
 
-function App() { 
+function App() {
   return (
-    <div className="App">
-      <Start/>
-       {/*<div>
-        <Profile name='Sharad Jadhav' type='Web Developer'/>
+    <div className="App bg-gradient-1">
+      <Start />
+      <div>
+        <Profile name="Sharad Jadhav" type="Web Developer" />
       </div>
-       <div>
-        <Projects/>
-      </div>  
-        <Contact /> */}
-    </div> 
+      <div>
+        <Projects />
+      </div>
+      {/*<Contact /> */}
+    </div>
   );
 }
 
