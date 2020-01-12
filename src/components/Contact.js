@@ -1,26 +1,33 @@
-import React, { Component } from "react";
+import React from "react";
 
-export default class Contact extends Component {
-  constructor() {
-    super()
-    this.state = ({
-      message: "Welcome Sharad!!"
-    });
-  }
-  changeMsg() {
-    this.setState ({
-      message: "thank you for subscribing!"
-    });
-  }
-
-  render() {
-    return (
+export default function Contact() {
+  return (
+    <div className="bg-dark-cyan py-10">
       <div>
-        <h1> {this.state.message}</h1>
-        <button onClick={() => this.changeMsg()}> Subscribe</button>
-      </div>
-    //   use <button onClick={() => this.changeMsg()}> Subscribe</button>
-    //   or  <button onClick={this.changeMsg.bind(this)}> Subscribe</button> to bind eventhandlers
-    );
-  }
+        <div className="uppercase email text-5xl text-center email">
+          Email
+        </div>
+      <form className="email">
+        <input
+          name="name"
+          type="text"
+          class="feedback-input "
+          placeholder="Name"
+        />
+        <input
+          name="email"
+          type="text"
+          class="feedback-input "
+          placeholder="Email"
+        />
+        <textarea
+          name="text"
+          class="feedback-input email"
+          placeholder="Message"
+        ></textarea>
+        <input type="submit" value="SEND" />
+      </form>
+    </div>
+    </div>
+  );
 }

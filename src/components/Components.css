@@ -64,68 +64,10 @@
   border-color: #f8360000;
 }
 
-/* 
-
-
-
-
-
- */
-
-/* PROFILE */
-
-/* .image {
-} */
+/* Profile */
 
 .image-sharad {
   box-shadow: 0px 0px 19px #000000;
-}
-
-.Profile-txt {
-  font-size: 23px;
-  font-family: Arial;
-  color: rgb(255, 255, 255);
-}
-
-.Profile-button {
-  padding: 2%;
-  padding-top: 3%;
-}
-
-.Profile-button-Resume {
-  box-sizing: border-box;
-  background-color: transparent;
-  border: 2px solid #e74c3c;
-  border-radius: 0.6em;
-  color: #e74c3c;
-  cursor: pointer;
-  display: flex;
-  align-self: center;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1;
-  margin: 20px;
-  padding-top: 3%;
-  padding-bottom: 3%;
-  padding-left: 7%;
-  padding-right: 7%;
-  text-decoration: none;
-  text-align: center;
-  text-transform: uppercase;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-
-  border-color: #3498db;
-  color: #fff;
-  box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
-  transition: all 150ms ease-in-out;
-}
-
-.Profile-button-Resume :hover {
-  color: #fff;
-  outline: 0;
-
-  box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
 }
 
 /* 
@@ -196,8 +138,7 @@ a[href]:hover::after {
   width: auto;
   height: 260px;
 }
-.project .card .infos 
-{
+.project .card .infos {
   height: 350px;
   position: relative;
   padding: 3px 24px;
@@ -205,7 +146,6 @@ a[href]:hover::after {
   transition: 0.4s 0.15s cubic-bezier(0.17, 0.67, 0.5, 1.03);
 }
 .project .card .infos .title {
-
   position: relative;
   margin: 10px 0;
   letter-spacing: 3px;
@@ -273,3 +213,67 @@ a[href]:hover::after {
  */
 
 /* CONTACT */
+
+.email{
+  background: -webkit-linear-gradient(180deg, #fe8c00, #f83600);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+form {
+  max-width: 50%;
+  margin: 50px auto;
+  background-color:rgb(14, 19, 23);
+  border-color:  #f83600;;
+}
+
+.feedback-input {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  border: 2px solid #f83600;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  outline: 0;
+  background: -webkit-linear-gradient(180deg, #fe8c00, #f83600);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+.feedback-input:focus {
+  border: 2px solid darkgray;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: darkgray;
+}
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize: vertical;
+}
+
+[type="submit"] {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  width: 100%;
+  background: transparent;
+  border-radius: 5px;
+  border: 1px solid #f83600;
+  cursor: pointer;
+  color: white;
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: all 0.7s;
+  margin-top: -4px;
+  font-weight: 700;
+}
+[type="submit"]:hover {
+  background-image: linear-gradient(to right,#f83600, #fe8c00, #f83600);
+  -webkit-background-clip: inherit;
+  -webkit-text-fill-color: white;
+}
