@@ -10,7 +10,7 @@ export default function Contact() {
       <form className="email">
         <input
           name="name"
-          type="text"
+          type="text" 
           class="feedback-input "
           placeholder="Name"
         />
