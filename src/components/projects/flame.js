@@ -8,11 +8,10 @@ export default function Flame() {
       <AaBase
         title="Flame"
         description="Website"
-        source={true}
-        visit={false}
         tools={["react", "nodejs", "expressjs", "firebase"]}
-        image="vehicletracker.png"
-        link="https://sharadjadhav.tk"
+        image="flame.png"
+        sourceCode="https://github.com/SharadJ85/Flame"
+        site={false}
       />
     </div>
   );

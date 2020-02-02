@@ -4,7 +4,12 @@ import Lmdr from "./projects/lmdr.js";
 import Flame from "./projects/flame.js";
 import Portfolio from "./projects/portfolio.js";
 
+const propjects=['Portfolio','Lmdr','Vehicletracker','Flame']
+
 export default class Projects extends Component {
+
+
+  
   render() {
     return (
       <div className="bg-dark-cyan">

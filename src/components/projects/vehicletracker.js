@@ -10,11 +10,10 @@ export default function vehicletracker() {
                      vehicles from a json file at the backend and puts it in a tabular
                      form. It also marks the vehicle's location(lat & lon) in the embedded
                      Google map."
-        source={true}
-        visit={false}
         tools={["react", "nodejs", "expressjs"]}
         image='vehicletracker.png'
-        link="https://sharadjadhav.tk"
+        sourceCode="https://github.com/SharadJ85/VehicleTracker"
+        site={false}
       /> 
     </div>
   );

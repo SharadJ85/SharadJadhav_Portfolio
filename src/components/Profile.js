@@ -41,6 +41,7 @@ export default class Profile extends Component {
                       >
                         <a
                           href="https://drive.google.com/open?id=14MDvhH8tRiF9PottHzt8uGz94sAio16w"
+                          rel="noopener noreferrer"
                           target="_blank"
                         >
                           Resume

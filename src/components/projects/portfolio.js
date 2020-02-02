@@ -6,11 +6,11 @@ export default function Portfolio() {
     <AaBase
     title="Portfolio"
     description=" A simple portfolio designed using React & Tailwindcss."
-    source={true}
-    visit={true}
     tools={['react','tailwindcss']}
     image='portfolio.png'
-    link="https://sharadjadhav.tk"/>
+    sourceCode="https://github.com/SharadJ85/SharadJadhav_Portfolio"
+    site="https://sharadjadhav.tk"
+    /> 
     </div>
   );
 }

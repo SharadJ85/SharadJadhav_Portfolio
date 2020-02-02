@@ -5,7 +5,8 @@ const tolozz=props.tools.map(tool=>{return <img
     className="inline-block px-2 h-6 w-10"
     src={require('../media/'+tool+'.png')}
     alt={tool}
-    />})
+    key={tool}
+    />},)
 
   return (
     <div className="project">
@@ -25,14 +26,16 @@ const tolozz=props.tools.map(tool=>{return <img
           <p className="txt text-gray-400 mt-5 py-2 border-t border-gray-600">
             {props.description}
           </p>
-          {props.source ? (
+          {props.sourceCode ? (
             <button className="bg-transparent text-teal-700 font-semibold absolute bottom-0 left-0 m-4 py-2 px-4">
+             <a href={props.sourceCode} rel="noopener noreferrer" target="_blank">
               Source code
+              </a>
             </button>
           ) : null}
-          {props.visit ? (
+          {props.site ? (
             <button className="bg-transparent text-teal-700 font-semibold absolute bottom-0 right-0 m-4 py-2 px-4">
-              <a href={props.link} target="_blank" rel="noopener norefetooler">
+              <a href={props.site} rel="noopener noreferrer" target="_blank">
                 Visit
               </a>
             </button>

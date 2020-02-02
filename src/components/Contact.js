@@ -11,18 +11,18 @@ export default function Contact() {
         <input
           name="name"
           type="text" 
-          class="feedback-input "
+          className="feedback-input "
           placeholder="Name"
         />
         <input
           name="email"
           type="text"
-          class="feedback-input "
+          className="feedback-input "
           placeholder="Email"
         />
         <textarea
           name="text"
-          class="feedback-input email"
+          className="feedback-input email"
           placeholder="Message"
         ></textarea>
         <input type="submit" value="SEND" />
