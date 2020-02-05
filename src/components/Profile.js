@@ -18,7 +18,6 @@ export default class Profile extends Component {
                       <img
                         src={require("./media/sharad.jpg")}
                         alt="Sharad_Jadhav_img"
-                        className=" rounded image-sharad  "
                       />
                     </div>
                   </div>

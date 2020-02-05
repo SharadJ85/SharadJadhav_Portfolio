@@ -9,8 +9,6 @@ export default function Lmdr() {
         description="Designed a extensible robotic system that can be remotely commanded and monitored. 
       It is equipped with a metal detection sensor,a gps for location tracking, a camera that for real 
       time update of the robot and its surroundings."
-        source={false}
-        visit={false}
         tools={["python"]}
         image="LMDR.jpg"
         link="https://sharadjadhav.tk"

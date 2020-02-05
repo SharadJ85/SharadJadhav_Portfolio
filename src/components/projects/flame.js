@@ -11,7 +11,6 @@ export default function Flame() {
         tools={["react", "nodejs", "expressjs", "firebase"]}
         image="flame.png"
         sourceCode="https://github.com/SharadJ85/Flame"
-        site={false}
       />
     </div>
   );

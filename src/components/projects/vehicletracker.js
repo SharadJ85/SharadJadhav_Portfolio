@@ -13,7 +13,6 @@ export default function vehicletracker() {
         tools={["react", "nodejs", "expressjs"]}
         image='vehicletracker.png'
         sourceCode="https://github.com/SharadJ85/VehicleTracker"
-        site={false}
       /> 
     </div>
   );
