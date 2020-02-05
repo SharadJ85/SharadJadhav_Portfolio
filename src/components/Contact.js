@@ -8,6 +8,7 @@ export default function Contact() {
           <form
             name="contactForm"
             method="POST"
+            netlify
             data-netlify="true"
             data-netlify-recaptcha="true"
             className="email"
