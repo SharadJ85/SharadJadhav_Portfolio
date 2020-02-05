@@ -7,30 +7,31 @@ export default function Contact() {
         <div className="uppercase email text-5xl text-center email">Email</div>
         <form
           name="contactForm"
-          action="POST"
-          method="POST"
-          netlify
+          method="post"
           data-netlify="true"
+          className="email"
         >
-          <div className="feedback-input ">
-            <input name="name" type="text" placeholder="Name" />
-          </div>
-          <div className="feedback-input ">
-            <input name="email" type="email" placeholder="Email" />
-          </div>
-          <div className="feedback-input email">
-            <textarea
-              name="message"
-              className="feedback-input email"
-              placeholder="Message"
-            ></textarea>
-          </div>
+          <input
+            name="name"
+            type="text"
+            className="feedback-input "
+            placeholder="Name"
+          />
+          <input
+            name="email"
+            type="email"
+            className="feedback-input "
+            placeholder="Email"
+          />
+          <textarea
+            name="message"
+            className="feedback-input email"
+            placeholder="Message"
+          ></textarea>
           <div class="field">
             <div data-netlify-recaptcha="true"></div>
           </div>
-          <div>
-            <input type="submit" value="SEND" />
-          </div>
+          <input type="submit" value="SEND"/>
         </form>
       </div>
     </div>
