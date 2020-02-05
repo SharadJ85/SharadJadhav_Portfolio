@@ -10,7 +10,6 @@ export default function Contact() {
             method="POST"
             netlify
             data-netlify="true"
-            data-netlify-recaptcha="true"
             className="email"
           >
             <input
