@@ -1,5 +1,6 @@
 import React from "react";
 import "./styles/app.css";
+import "./styles/tailwind.css";
 import "./components/Components.css";
 import Start from "./components/Welcome.js";
 import Profile from "./components/Profile.js";

@@ -2,3 +2,39 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Custom */
+.border-dark-cyan{
+    border-color:rgb(14, 19, 23);
+  }
+  .bg-image-dark-cyan{
+    background-image:rgb(14, 19, 23);
+  }
+  .bg-gradient-1 {
+    background-image: linear-gradient(105deg,#fe8c00,#f83600);
+  }
+  .bg-gradient-slanted-1 {
+  background-image: linear-gradient(176deg,#fe8c00 85%,rgb(14, 19, 23) calc(85% + 2px));
+  }
+  .bg-gradient-slanted-1-0 {
+  background-image: linear-gradient(176deg,#02aab000 85%,rgb(14, 19, 23) calc(85% + 2px));
+  }
+  .text-dark-cyan {
+    color: rgb(14, 19, 23);
+  }
+  .text-gradient {
+    color: linear-gradient(to right,#fe8c00,#f83600);
+  }
+  .bg-dark-cyan{
+    background-color:rgb(14, 19, 23);
+  }
+
+  .h-14 {
+    height:3.5rem;
+  }
+  .h-60{
+    height:15rem;
+  }
+
+  .w-14 {
+    width: 3.5rem;
+  }
