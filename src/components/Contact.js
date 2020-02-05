@@ -1,13 +1,12 @@
 import React from "react";
 
 export default function Contact() {
-  let msg=(()=>{alert("Thank you. I will get back to you as soon as possible!")})
     return (
       <div className="bg-dark-cyan py-10">
         <div>
           <div className="uppercase email text-5xl text-center email">Email</div>
           <form
-            name="contact"
+            name="contactForm"
             method="POST"
             data-netlify="true"
             data-netlify-recaptcha="true"
@@ -30,7 +29,7 @@ export default function Contact() {
               className="feedback-input email"
               placeholder="Message"
             ></textarea>
-            <button type="submit" onClick={msg}>SEND</button>
+            <button type="submit">SEND</button>
           </form>
         </div>
       </div>
