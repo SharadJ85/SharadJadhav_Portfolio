@@ -19,7 +19,9 @@ function App() {
       <div>
         <Projects />
       </div>
-      <Contact />
+      {/* <Contact /> */}
+      <div>
+      <p className='footerWarning text-gray-500 bg-gray-900 text-center'>--- Site In Development ---</p></div>
     </div>
   );
 }

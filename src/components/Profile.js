@@ -26,7 +26,7 @@ export default class Profile extends Component {
                   <div className="w-full text-left text-black text-xl">
                     <div className="my-10">
                       I am a fullstack web developer specializing in frontend
-                      frameworks like reactjs, bootstarp,tailwindcss etc with
+                      frameworks like reactjs, bootstrap,tailwindcss etc with
                       nodejs,expressjs as backend.
                     </div>
                     <div className="my-10">
