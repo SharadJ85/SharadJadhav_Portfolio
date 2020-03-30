@@ -4,9 +4,10 @@ const AaBase = props => {
 const tolozz=props.tools.map(tool=>{return <img
     className="inline-block px-2 h-6 w-10"
     src={require('../media/'+tool+'.png')}
+    title={tool}
     alt={tool}
     key={tool}
-    />},)
+    />},);
 
   return (
     <div className="project">
